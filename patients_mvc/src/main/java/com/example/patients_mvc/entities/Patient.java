@@ -13,7 +13,7 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Entity
+@Entity 
 public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY )
